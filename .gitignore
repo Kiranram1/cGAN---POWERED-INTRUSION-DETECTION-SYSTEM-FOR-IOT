@@ -1,0 +1,28 @@
+# ---- Python virtual environment ----
+app/env/
+.env/
+venv/
+
+# ---- Python cache ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.python-version
+
+# ---- Jupyter / VSCode ----
+.ipynb_checkpoints/
+*.code-workspace
+.vscode/
+
+# ---- Data files (large or generated) ----
+*.csv
+*.pkl
+*.joblib
+
+# ---- Logs ----
+*.log
+
+# ---- OS specific ----
+.DS_Store
+Thumbs.db
